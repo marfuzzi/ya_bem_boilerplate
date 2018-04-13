@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import registerServiceWorker from './registerServiceWorker';
 
+import 'b:Fonts';
 import 'b:Page';
 import App from 'b:App';
 

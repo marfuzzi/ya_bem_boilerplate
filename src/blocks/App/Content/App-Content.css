@@ -1,0 +1,6 @@
+.Content {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px 16px;
+}

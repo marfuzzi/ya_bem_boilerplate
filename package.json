@@ -19,7 +19,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ./"
   },
   "devDependencies": {
     "babel-plugin-bem-import": "1.5.3",
