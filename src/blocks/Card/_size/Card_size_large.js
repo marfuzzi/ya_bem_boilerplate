@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { Fragment } from 'react';
 import { declMod } from 'bem-react-core'
+
+import Content from 'e:Content';
+import Img from 'e:Img';
 
 export default declMod(
     { size: 'large' },
@@ -14,7 +17,20 @@ export default declMod(
         },
 
         content({ card }) {
-            return <div>Большая карточка</div>
+            return (
+                <Fragment>
+                    <Img
+                        image = {card.image}
+                        title = {card.title}
+                    />
+                    <Content
+                        title = {card.title}
+                        titleColor = {card.titleColor}
+                        description = {card.description}
+                        length = {8}
+                    />
+                </Fragment>
+              );
         },
     },
 )

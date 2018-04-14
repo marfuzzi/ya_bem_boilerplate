@@ -1,0 +1,19 @@
+.Card_size_large {
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 16px;
+}
+
+.Card_size_large > .Card-Img {
+    grid-column: span 2;
+}
+
+.Card_size_large .Card-Info {
+    flex-direction: column;
+    text-align: justify;
+}
+
+.Card_size_large .Info-Action {
+    flex-direction: row;
+}

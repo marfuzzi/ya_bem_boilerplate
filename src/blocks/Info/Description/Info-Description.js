@@ -6,10 +6,10 @@ export default decl({
     block: 'Info',
     elem: 'Description',
     cls: 'YSText-Regular',
-    content({description}) {
+    content({length,description}) {
         return (
             <TextTruncate
-                line={3}
+                line={length}
                 truncateText="…"
                 text={description}
             />

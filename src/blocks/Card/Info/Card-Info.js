@@ -8,10 +8,10 @@ export default decl({
     block: 'Card',
     elem: 'Info',
     mix : { block : 'Info'},
-    content({description}) {
+    content({length, description}) {
         return (
             <Fragment>
-                <Description description={description}/>
+                <Description description={description} length={length}/>
                 <Action />
             </Fragment>
         );

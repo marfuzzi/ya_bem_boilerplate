@@ -30,6 +30,7 @@ export default declMod(
                     />
                     <Info
                         description = {card.description}
+                        length = {3}
                     />
                 </Fragment>
               );
