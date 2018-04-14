@@ -27,7 +27,7 @@ export default declMod(
                         title = {card.title}
                         titleColor = {card.titleColor}
                         description = {card.description}
-                        length = {8}
+                        length = {4}
                     />
                 </Fragment>
               );

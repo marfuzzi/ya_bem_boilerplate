@@ -1,5 +1,5 @@
 .Card_size_large {
-    grid-column: span 6;
+    grid-column: span 4;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 16px;
@@ -11,7 +11,6 @@
 
 .Card_size_large .Card-Info {
     flex-direction: column;
-    justify-content: space-between;
     text-align: justify;
 }
 
