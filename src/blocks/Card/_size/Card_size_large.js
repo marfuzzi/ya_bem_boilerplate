@@ -13,7 +13,7 @@ export default declMod(
             }
         },
 
-        content() {
+        content({ card }) {
             return <div>Большая карточка</div>
         },
     },

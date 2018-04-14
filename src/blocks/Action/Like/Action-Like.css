@@ -1,0 +1,6 @@
+.Action-Like {
+    width: 17px;
+    height: 16px;
+    background: url('./Heart.png') no-repeat center;
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.Action-More {
+    width: 14px;
+    height: 20px;
+    background: url('./Actions.png') no-repeat center;
+    cursor: pointer;
+}
