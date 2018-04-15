@@ -6,15 +6,15 @@ import Channel from 'b:Info e:Channel';
 import Description from 'b:Info e:Description';
 
 export default declMod(
-    { size: 'channel' },
+    { add: 'channel' },
     {
         block: 'Card',
         elem: 'Info',
         mix : { block : 'Info'},
-        mods({ size }) {
+        mods({ add }) {
             return {
                 ...this.__base(...arguments),
-                size,
+                add,
             }
         },
         content({length, description, channel}) {

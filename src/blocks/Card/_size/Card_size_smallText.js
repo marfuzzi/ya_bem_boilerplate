@@ -2,9 +2,7 @@ import React, { Fragment } from 'react';
 import { declMod } from 'bem-react-core'
 
 import Title from 'e:Title';
-//import Img from 'e:Img';
-import Info from 'e:Info m:size=channel';
-//import Card from 'b:Card m:size=smallText|small|medium|large';
+import Info from 'e:Info m:add=channel';
 
 export default declMod(
     { size: 'smallText' },
@@ -23,7 +21,7 @@ export default declMod(
                         titleColor = {card.titleColor}
                         title = {card.title}
                     />
-                    <Info size='channel'
+                    <Info add='channel'
                         channel = {card.channelName}
                         description = {card.description}
                         length = {10}

@@ -118,13 +118,13 @@ const data = [
     },
 ];
 
-const cards = data.map(card => {
+const cards = data.map((card,index) => {
     switch(card.size) {
         case 's':
-            if (card.image) {return <Card size='small' key={card.id} card={card}/>}
-            return <Card size='smallText' key={card.id} card={card}/>
-        case 'm': return <Card size='medium' key={card.id} card={card}/>
-        case 'l': return <Card size='large' key={card.id} card={card}/>
+            if (card.image) {return <Card size='small' key={index} card={card}/>}
+            return <Card size='smallText' key={index} card={card}/>
+        case 'm': return <Card size='medium' key={index} card={card}/>
+        case 'l': return <Card size='large' key={index} card={card}/>
         default: return null;
     }
 })

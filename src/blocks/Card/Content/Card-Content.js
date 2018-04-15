@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { decl } from 'bem-react-core';
 
-
 import Title from 'e:Title';
 import Info from 'e:Info';
 
