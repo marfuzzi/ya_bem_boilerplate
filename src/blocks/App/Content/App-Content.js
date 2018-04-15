@@ -120,7 +120,9 @@ const data = [
 
 const cards = data.map(card => {
     switch(card.size) {
-        case 's': return <Card size='small' key={card.id} card={card}/>
+        case 's':
+            if (card.image) {return <Card size='small' key={card.id} card={card}/>}
+            return <Card size='small-text' key={card.id} card={card}/>
         case 'm': return <Card size='medium' key={card.id} card={card}/>
         case 'l': return <Card size='large' key={card.id} card={card}/>
         default: return null;

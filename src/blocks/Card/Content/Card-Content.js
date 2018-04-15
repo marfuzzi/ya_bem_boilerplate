@@ -3,7 +3,6 @@ import { decl } from 'bem-react-core';
 
 
 import Title from 'e:Title';
-// import Img from 'e:Img';
 import Info from 'e:Info';
 
 export default decl({

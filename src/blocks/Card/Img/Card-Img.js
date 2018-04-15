@@ -12,6 +12,7 @@ export default decl({
     elem: 'Img',
     tag: 'picture',
     content({image, title}) {
+        console.log(image);
         return (
             <Fragment>
                 <source srcSet={getImage(image, 2)}/>
