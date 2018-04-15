@@ -17,4 +17,5 @@
 
 .Card_size_large .Info-Action {
     flex-direction: row;
+    margin-top: 20px;
 }

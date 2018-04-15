@@ -1,0 +1,10 @@
+.Card_size_smallText .Card-Info {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.Card_size_smallText .Info-Action {
+    flex-direction: row;
+    margin-top: 20px;
+}

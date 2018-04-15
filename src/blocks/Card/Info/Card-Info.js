@@ -9,6 +9,7 @@ export default decl({
     elem: 'Info',
     mix : { block : 'Info'},
     content({length, description}) {
+
         return (
             <Fragment>
                 <Description description={description} length={length}/>
